@@ -6,7 +6,7 @@
                 <div class="swiper-slide">
                     <article class="pfArea pjec mkca left" onclick="location.href='./pf/mkca.php'">
                         <div class="pf_imgBx">
-                            <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/mkca/mkca_pc_01.png" alt="Darak360 main page"></div></div>
+                            <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/mkca/mkca_pc_1.png" alt="Darak360 main page"></div></div>
                         </div>
                     </article>
                     <h2 class="slideTxt">Darak360</h2>

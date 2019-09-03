@@ -32,7 +32,4 @@ jQuery(document).ready(function ($) {
         })
     })
 
-
-
-
 });
