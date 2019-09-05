@@ -57,6 +57,7 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 ============================================================================*/
 .clearfix:after, .pfArea:after {content:'';display:block;clear:both}
 .floatL{float: left;}
+.floatR{float: right;}
 .hidden {display:none}
 .ellipsis{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
 .wrap{width: 100%; position: relative;}
@@ -208,6 +209,39 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 .mims:hover .pc img{left: -324px;}
 /* GW */
 .gw:hover .pf_img img{top: -120px;}
+/* IR GO */
+.irgo .top .pf_imgBx{top: -40px;}
+.irgo .top .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 250px;}
+.irgo .bottom .pf_imgBx{clear:both;}
+.irgo .bottom .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 550px;}
+.irgo:hover .top .pf_imgBx .pf_img:nth-child(1){right: 260px; top: 0;}
+.irgo:hover .top .pf_imgBx .pf_img:nth-child(2){left: 20px;}
+.irgo:hover .top .pf_imgBx .pf_img:nth-child(2) img{top: -395px;}
+.irgo:hover .bottom .pf_imgBx .pf_img{top: -10px;}
+.irgo:hover .bottom .pf_imgBx .pf_img:nth-child(1){right: 540px;}
+.irgo:hover .bottom .pf_imgBx .pf_img:nth-child(2){left: -20px; top: -20px}
+.irgo:hover .bottom .pf_imgBx .pf_img:nth-child(1) img{top: -200px;}
+.irgo:hover .bottom .pf_imgBx .pf_img:nth-child(2) img{top: -733px;}
+/* TM */
+.tm .pf_imgBx:nth-child(1) .pf_img{left: 100px;}
+.tm .pf_imgBx:nth-child(2) .pf_img{left: 200px;}
+.tm .pf_imgBx:nth-child(3) .pf_img{top: -80px;}
+.tm:hover .pf_imgBx:nth-child(1) .pf_img{left: 120px; top: -30px;}
+.tm:hover .pf_imgBx:nth-child(2) .pf_img{left: 140px;}
+.tm:hover .tb img{top: -346px;}
+.tm:hover .mb img{top: -598px;}
+.tm:hover .pc img{top: -66px;}
+/* IBSS */
+.ibss .pf_imgBx{min-height: 400px;}
+/* EVolt */
+.evolt .responsive img:nth-child(2){top: -306px; left: -387px;}
+.evolt .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 250px;}
+.evolt:hover .top .pf_imgBx .pf_img:nth-child(1){right: 260px; top: 0;}
+.evolt:hover .top .pf_imgBx .pf_img:nth-child(2){left: 20px;}
+.evolt:hover .top .pf_imgBx .pf_img:nth-child(2) img{top: -19px;}
+.evolt:hover .responsive img:nth-child(1){top: -596px}
+.evolt:hover .responsive img:nth-child(2){left: 305px;}
+
 
 
 

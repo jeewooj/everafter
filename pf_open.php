@@ -63,11 +63,107 @@
                     </ul>
                 </div>
             </article>
+            <article class="pfArea pjec irgo right">
+                <div class="top clearfix" onclick="window.open('https://m.irgo.co.kr/')">
+                    <div class="pf_tit">
+                        <h3>IR GO</h3>
+                        <ul class="pf_info">
+                            <li>IR GO mobile 약 50페이지 / IR BIZ PC 약 40페이지 리뉴얼</li>
+                            <li>IR GO 내 IR ROOM 약 5페이지 / IR BIZ 내 제작소 약 6페이지 새 페이지 추가코딩</li>
+                            <li>리뉴얼은 개발된 서버(asp)에서 작업</li>
+                            <li>리뉴얼 기여도 50% / IR ROOM 및 제작소 기여도 100%</li>
+                            <li>작업기간 리뉴얼 6주 / 새페이지 1주일</li>
+                        </ul>
+                    </div>
+                    <div class="pf_imgBx">
+                        <div class="pf_img mb responsive"><div class="imgBx"><img src="./imgs/pf/irgo/irgo_mb_1.png" alt="IR GO Main page"><img src="./imgs/pf/irgo/irgo_tb_1.png" alt="IR GO Main page"></div></div>
+                        <div class="pf_img mb"><div class="imgBx"><img src="./imgs/pf/irgo/irgo_mb_2.png" alt="IR GO IR room page"></div></div>
+                    </div>
+                </div>
+                <div class="bottom clearfix" onclick="window.open('https://biz.irgo.co.kr/')">
+                    <div class="pf_imgBx">
+                        <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/irgo/irgo_biz_pc_1.png" alt="IR GO BIZ page"></div></div>
+                        <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/irgo/irgo_biz_pc_2.png" alt="IR GO 제작소 page"></div></div>
+                    </div>
+                </div>
+            </article>
+            <article class="pfArea pjec ibss left" onclick="location.href='./pf/ibss.php'">
+                <div class="top clearfix">
+                    <div class="pf_tit">
+                        <h3>GLOBAL FM</h3>
+                        <ul class="pf_info">
+                            <li></li>
+                            <li>㈜글로벌 금융 판매 금융정보관리 시스템 리뉴얼 작업</li>
+                            <li>table로만 구성된 20년 전의 웹시스템을 HTML5로, inline style을 CSS3로 변환</li>
+                            <li>대략 350페이지, 팝업 100개 이상의 작업</li>
+                            <li>1024px, 1280px, 1920px 준반응형</li>
+                            <li>작업기간 3주 / 기여도 50%</li>
+                        </ul>
+                    </div>
+                    <div class="pf_imgBx">
+                        <div class="pf_img tb extension"><div class="imgBx"><img src="./imgs/pf/ibss/ibss_pc_2.png" alt="IBSS 금융관리 웹시스템"><img src="./imgs/pf/ibss/ibss_pc_4.png" alt="IBSS 금융관리 웹시스템"></div></div>
+                    </div>
+                </div>
+                <div class="bottom clearfix">
+                    <div class="pf_imgBx">
+                        <div class="pf_img tb extension"><div class="imgBx"><img src="./imgs/pf/ibss/ibss_pc_5.png" alt="IBSS 금융관리 웹시스템"><img src="./imgs/pf/ibss/ibss_pc_7.png" alt="IBSS 금융관리 웹시스템"></div></div>
+                    </div>
+                </div>
+            </article>
+            <article class="pfArea pjec evolt right">
+                <div class="top clearfix">
+                    <div class="pf_tit">
+                        <h3>EVolt</h3>
+                        <ul class="pf_info">
+                            <li>전기차 충전소 서비스 하이브리드 웹</li>
+                            <li>반응형 웹으로 약 43페이지(main page만 다른 버전으로 4페이지)</li>
+                            <li>Highcharts 및 jQuery slider 사용</li>
+                            <li>기여도 100%</li>
+                            <li>작업기간 3주</li>
+                        </ul>
+                    </div>
+                    <div class="pf_imgBx">
+                        <div class="pf_img mb responsive"><div class="imgBx"><img src="./imgs/pf/evolt/evolt_mb_2.png" alt="EVolt preview"><img src="./imgs/pf/evolt/evolt_pc_1.png" alt="EVolt preview"></div></div>
+                        <div class="pf_img mb"><div class="imgBx"><img src="./imgs/pf/evolt/evolt_mb_1.png" alt="EVolt preview"></div></div>
+                    </div>
+                </div>
+                <div class="bottom clearfix">
+                    <div class="pf_imgBx">
+                        <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/evolt/irgo_biz_pc_1.png" alt="EVolt preview"></div></div>
+                        <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/evolt/irgo_biz_pc_2.png" alt="EVolt preview"></div></div>
+                    </div>
+                </div>
+            </article>
 
 
 
 
 
+
+
+
+
+            <article class="pfArea pjec tm left">
+                <div class="pf_imgBx">
+                    <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/tm/tm_pc_1.png" alt="Mims solution page"></div></div>
+                </div>
+                <div class="pf_imgBx">
+                    <div class="pf_img mb"><div class="imgBx"><img src="./imgs/pf/tm/tm_mb_1.png" alt="Darak360 mobile page"></div></div>
+                </div>
+                <div class="pf_imgBx">
+                    <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/tm/tm_manage_1.png" alt="Mims solution page"></div></div>
+                </div>
+                <div class="pf_tit">
+                    <h3>Travel Maker</h3>
+                    <ul class="pf_info">
+                        <li>여행자와 가이드를 연결해주는 플랫폼</li>
+                        <li>PC버전 24페이지 / mobile버전 29페이지 /가이드 관리자 PC버전 19페이지</li>
+                        <li>고객예약 홈페이지 17페이지</li>
+                        <li>PC/mobile 기여도 80% / 관리페이지 페이지작업, 검수 등 기여도 90%</li>
+                        <li>작업기간 1개월</li>
+                    </ul>
+                </div>
+            </article>
             <article class="pfArea pjec center"></article>
             <article class="pfArea pjec left"></article>
             <article class="pfArea pjec right"></article>
