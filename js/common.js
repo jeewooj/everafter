@@ -32,4 +32,28 @@ jQuery(document).ready(function ($) {
         })
     })
 
+    // 포폴 오픈페이지 - 필터
+    $('.tab_menu li').on('click', function(){
+        $('.tab_menu li').removeClass('on');
+        $(this).addClass('on');
+        if($(this).index() === 0 || $(this).is(':nth-child(1)')){
+            $('.pfArea').show();
+        }
+        if($(this).index() === 1 || $(this).is(':nth-child(2)')){
+            $('.pfArea').hide();
+            $('.pfArea').find('.pc').parents('.pfArea').show();
+            $('.pfArea').find('.tb').parents('.pfArea').show();
+        }
+        if($(this).index() === 2 || $(this).is(':nth-child(3)')){
+            $('.pfArea').hide();
+            $('.pfArea').find('.mb').parents('.pfArea').show();
+        }
+        if($(this).index() === 3 || $(this).is(':nth-child(4)')){
+            $('.pfArea').hide();
+            $('.pfArea').find('.responsive').parents('.pfArea').show();
+        }
+        
+    })
+
+
 });

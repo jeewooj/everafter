@@ -1,9 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="ko">
+<html lang="ko">  
+    <?php 
+        $filename = basename($_SERVER['PHP_SELF']);
+        $modName = substr($filename, 0, strrpos($filename, "."));
+    ?>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Darak360</title>
+    <title><?echo $modName;?></title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="../css/common.css">
  
@@ -16,4 +20,4 @@
     <div id="dialog" title="drag move">
         <button type="button" class="pf_btn btn_back">전 페이지로</button>
         <button type="button" class="pf_btn btn_first">처음 페이지로</button>
-        <button type="button" class="pf_btn btn_home" onclick="location.href='../pf_open.php'">돌아가기</button>
+        <button type="button" class="pf_btn btn_home" onclick="location.href='../pf_open.php#<?echo $modName;?>'">돌아가기</button>

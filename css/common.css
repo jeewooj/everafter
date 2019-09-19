@@ -134,9 +134,9 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 /*===========================================================================
 	portfolio open page
 ===========*/
-.openpage{padding: 80px 100px; position: relative;}
-.openpage:before{content:""; display: block; width: 100%; height: 500px; position: absolute; left: 0; top: 0; z-index: -1;
-	padding: 80px 0; background: linear-gradient(black 50%, transparent);}
+.openpage{overflow: hidden; min-width: 1200px; padding: 80px 100px; position: relative;}
+.openpage:before{content:""; display: block; width: 100%; height: 500px; position: absolute; left: 0; top: 0; z-index: -1; padding: 80px 0; background: linear-gradient(black 50%, transparent);}
+.tab_cont{}
 .titBx{width: 1000px; margin: auto; padding: 100px 0;}
 .titBx h2{display: none; font-size: 50px; line-height: 1.3;}
 .titBx h2.on{display: block;}
@@ -222,25 +222,43 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 .irgo:hover .bottom .pf_imgBx .pf_img:nth-child(2){left: -20px; top: -20px}
 .irgo:hover .bottom .pf_imgBx .pf_img:nth-child(1) img{top: -200px;}
 .irgo:hover .bottom .pf_imgBx .pf_img:nth-child(2) img{top: -733px;}
+/* IBSS */
+.ibss .pf_imgBx{min-height: 400px;}
+/* EVolt */
+.evolt .responsive img:nth-child(2){top: -306px; left: -387px;}
+.evolt .top .pf_imgBx{top: -70px;}
+.evolt .top .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 250px;}
+.evolt .bottom .pf_imgBx{top: -10px;}
+.evolt .bottom .pf_imgBx .pf_img:nth-child(1){left: auto; right: 450px;}
+.evolt .bottom .pf_imgBx .pf_img:nth-child(2){left: auto; right: 80px; top: -20px;}
+.evolt .bottom .responsive img:nth-child(2){top: 5px; left: -76px;}
+.evolt:hover .top .pf_imgBx .pf_img:nth-child(1){right: 260px; top: 0;}
+.evolt:hover .top .pf_imgBx .pf_img:nth-child(2){left: 20px;}
+.evolt:hover .top .pf_imgBx .pf_img:nth-child(2) img{top: -19px;}
+.evolt:hover .responsive img:nth-child(1){top: -900px}
+.evolt:hover .responsive img:nth-child(2){left: 305px;}
+.evolt:hover .bottom .pf_imgBx{top: -40px;}
+.evolt:hover .bottom .pf_imgBx .pf_img:nth-child(1){right: 500px; top: -10px;}
+.evolt:hover .bottom .pf_imgBx .pf_img:nth-child(1) img{top: -95px;}
+.evolt:hover .bottom .responsive img:nth-child(1){top: -800px;}
+.evolt:hover .bottom .responsive img:nth-child(2){left: -6px;}
+
+
+
+
+
+
+
 /* TM */
 .tm .pf_imgBx:nth-child(1) .pf_img{left: 100px;}
 .tm .pf_imgBx:nth-child(2) .pf_img{left: 200px;}
 .tm .pf_imgBx:nth-child(3) .pf_img{top: -80px;}
 .tm:hover .pf_imgBx:nth-child(1) .pf_img{left: 120px; top: -30px;}
 .tm:hover .pf_imgBx:nth-child(2) .pf_img{left: 140px;}
+.tm:hover .pf_imgBx:nth-child(3) .pf_img{top: -50px;}
 .tm:hover .tb img{top: -346px;}
 .tm:hover .mb img{top: -598px;}
 .tm:hover .pc img{top: -66px;}
-/* IBSS */
-.ibss .pf_imgBx{min-height: 400px;}
-/* EVolt */
-.evolt .responsive img:nth-child(2){top: -306px; left: -387px;}
-.evolt .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 250px;}
-.evolt:hover .top .pf_imgBx .pf_img:nth-child(1){right: 260px; top: 0;}
-.evolt:hover .top .pf_imgBx .pf_img:nth-child(2){left: 20px;}
-.evolt:hover .top .pf_imgBx .pf_img:nth-child(2) img{top: -19px;}
-.evolt:hover .responsive img:nth-child(1){top: -596px}
-.evolt:hover .responsive img:nth-child(2){left: 305px;}
 
 
 
@@ -264,3 +282,145 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 
 
 
+
+
+/*===========================================================================
+	profile preview page
+===========*/
+.pf_wrapper ul{position: relative;}
+.pf_wrapper ul li{display: none;}
+.pf_wrapper ul li.on{display: block;}
+
+/* button dialog custum */
+.ui-dialog{position: fixed !important; width: auto !important; background: transparent;}
+.ui-dialog .ui-dialog-titlebar{background: #000;}
+.ui-dialog .ui-dialog-title{width: 100%;}
+.ui-dialog .ui-dialog-titlebar-close{display: none;}
+.ui-dialog .ui-dialog-content{min-height: auto !important; padding: 0;}
+.pf_btn{display: block; width: 100px; height: 40px; margin: 10px auto; background: rgba(0,0,0,0.3);}
+
+/* 모바일 */
+.mobile_site .pf_wrapper ul li{overflow: hidden; max-width: 460px; width: 100%;}
+.mobile_site .pf_wrapper ul li img{width: 100%}
+.mobile_site .ui-dialog .pf_btn{display: inline-block; width: auto; height: 30px; padding: 0 10px; left: auto; right: 20px; border-radius: 5px; font-size: 12px;}
+
+
+
+/*===========================================================================
+	profile page
+===========*/
+.pfpage{padding-top: 80px;}
+.pf_intro{position: relative; width: 100%; height: 520px; padding: 320px 100px 0; background: url(../imgs/bg/sky02.jpg) repeat top center/cover; background-attachment: fixed;}
+.pfBx{width: 70%; height: 400px; margin: auto; padding: 50px; border: 1px solid #e3e3e3; border-top: 4px solid rgba(28, 37, 46, 0.8); background: #fff;}
+.pfBx *{color: #000;}
+.pfBx .floatL, .pfBx .floatR{width: 50%;}
+.pfBx h2{font-size: 40px; font-weight: 500;}
+.pfBx p{margin-bottom: 5px;}
+.pfBx strong{font-size: 26px; font-weight: 500;}
+.pfBx ul li{margin-top: 10px;}
+.pfBx ul li strong{display: inline-block; width: 100px; font-size: 14px;}
+
+.pf_skill{padding: 300px 15%;}
+.pf_skill h2{margin-bottom: 10px; font-size: 40px; font-weight: 500; color: #000;}
+.skill li{float: left; width: 20%;}
+.skl_c{position: relative; width: 1em; height: 1em; border-radius: 50%; background-color: #cccccc; font-size: 120px;}
+.skl_c *{font-size: inherit;}
+.skl_c:before{    position: absolute;
+    top: 0.08em;
+    left: 0.08em;
+    display: block;
+    content: " ";
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 0.84em;
+    height: 0.84em;
+}
+
+.pst{position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 5em;
+    line-height: 5em;
+    font-size: 0.2em;
+    color: #cccccc;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+.slice{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    clip: rect(0em, 1em, 1em, 0.5em);
+}
+.bar{
+    position: absolute;
+    border: 0.08em solid #307bbb;
+    width: 1em;
+    height: 1em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    clip: rect(auto, auto, auto, auto);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: all 2s;
+    }
+.p60 .bar{
+    clip: rect(0em, 0.5em, 1em, 0em);
+    -webkit-transform: rotate(216deg);
+    -moz-transform: rotate(216deg);
+    -ms-transform: rotate(216deg);
+    -o-transform: rotate(216deg);
+    transform: rotate(216deg);
+
+}
+.p100 .bar{
+    clip: rect(auto, auto, auto, auto);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); 
+}
+.p75 .bar{
+    clip: rect(0em, 0.5em, 1em, 0em);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+
+.pf_career{position: relative; width: 100%; padding: 100px; background: url(../imgs/bg/sky01.jpg) repeat top center/cover; background-attachment: fixed;}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.pf_history{padding: 300px 100px;}
+.pf_history h2{margin-bottom: 50px; font-size: 30px; text-align: center; color: #000;}
+.history{position: relative; text-align: center;}
+.history:before{content: ""; display: block; position: absolute; top: 0; left: 50%; z-index: -1; width: 2px; height: 100%; margin-left:-1px; background: #000;}
+.history li{position: relative; margin: 30px; font-size: 0;}
+.circle{display: inline-block; width: 50px; height: 50px; padding: 10px 0; border-radius: 50%; background: #000; font-size: 16px; line-height: 1;}
+.history li:nth-child(2n) .circle{background: pink;}
+.history li:last-child .circle{line-height: 30px;}
+.history li p{position: absolute; left: 0; top: 30%; width: 40%; font-size: 16px; color: #000; text-align: right;}
+.history li .right{left: auto; right:0; text-align: left;}
+.history li .left{left: 0; right: auto; text-align: right;} */

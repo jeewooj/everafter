@@ -10,11 +10,11 @@
                 <li class="on">All</li>
                 <li>PC/Tablet</li>
                 <li>Mobile</li>
-                <li>reactive</li>
+                <li>responsive</li>
             </ul>
         </div>
         <div class="tab_cont">
-            <article class="pfArea pjec mkca left" onclick="location.href='./pf/mkca.php'">
+            <article class="pfArea pjec mkca left" onclick="location.href='./pf/mkca.php'" id="mkca">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/mkca/mkca_pc_1.png" alt="Darak360 main page"></div></div>
                     <div class="pf_img mb"><div class="imgBx"><img src="./imgs/pf/mkca/mkca_mb_1.png" alt="Darak360 mobile page"></div></div>
@@ -31,7 +31,7 @@
                     </ul>
                 </div>
             </article>
-            <article class="pfArea pjec mims right" onclick="location.href='./pf/mims.php'">
+            <article class="pfArea pjec mims right" onclick="location.href='./pf/mims.php'" id="mims">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/mims/mims_use_1.png" alt="Mims user page"></div></div>
                     <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/mims/mims_solution_1.png" alt="Mims solution page"></div></div>
@@ -48,7 +48,7 @@
                     </ul>
                 </div>
             </article>
-            <article class="pfArea pjec gw left" onclick="location.href='./pf/gw.php'">
+            <article class="pfArea pjec gw left" onclick="location.href='./pf/gw.php'" id="gw">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/gw/gw_pc_7.png" alt="GW main page"></div></div>
                 </div>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </article>
-            <article class="pfArea pjec ibss left" onclick="location.href='./pf/ibss.php'">
+            <article class="pfArea pjec ibss left" onclick="location.href='./pf/ibss.php'" id="ibss">
                 <div class="top clearfix">
                     <div class="pf_tit">
                         <h3>GLOBAL FM</h3>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </article>
-            <article class="pfArea pjec evolt right">
+            <article class="pfArea pjec evolt right"  onclick="window.open('https://www.m-evolt.com')">
                 <div class="top clearfix">
                     <div class="pf_tit">
                         <h3>EVolt</h3>
@@ -129,21 +129,13 @@
                 </div>
                 <div class="bottom clearfix">
                     <div class="pf_imgBx">
-                        <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/evolt/irgo_biz_pc_1.png" alt="EVolt preview"></div></div>
-                        <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/evolt/irgo_biz_pc_2.png" alt="EVolt preview"></div></div>
+                        <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/evolt/evolt_pc_2.png" alt="EVolt preview"></div></div>
+                        <div class="pf_img mb responsive"><div class="imgBx"><img src="./imgs/pf/evolt/evolt_mb_4.png" alt="EVolt preview"><img src="./imgs/pf/evolt/evolt_pc_3.png" alt="EVolt preview"></div></div>
                     </div>
                 </div>
             </article>
 
-
-
-
-
-
-
-
-
-            <article class="pfArea pjec tm left">
+            <article class="pfArea pjec tm left" onclick="window.open('https://www.travelmaker.co.kr')">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/tm/tm_pc_1.png" alt="Mims solution page"></div></div>
                 </div>
@@ -164,10 +156,6 @@
                     </ul>
                 </div>
             </article>
-            <article class="pfArea pjec center"></article>
-            <article class="pfArea pjec left"></article>
-            <article class="pfArea pjec right"></article>
-            <article class="pfArea pofol center"></article>
         </div>
     </section>
 </div>
