@@ -107,16 +107,18 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 .mainSwiper .swiper-slide{overflow: hidden; text-align: center; opacity: 0.4;}
 .mainSwiper .swiper-slide-active{opacity: 1;}
 .mainSwiper .swiper-slide img{position: absolute; top: 0; left: 0; width: 100%;}
-.mainSwiper .swiper-slide:before{content:""; display: block; position: absolute; top: 0; left: 0; z-index: 1; width: 100%; height: 100%; background: rgba(0,0,0,0.3);}
+.mainSwiper .swiper-slide:before{content:""; display: block; position: absolute; top: 0; left: 0; z-index: 1; width: 100%; height: 100%; background: rgba(0,0,0,0.35);}
 
 /* slide title */
-.slideTxt{display: inline-block; position: relative; top: 50%; z-index: 1; margin-top: -50px; font-size: 60px; text-align: center; opacity: 0.3; transition: opacity 2s ease;}
+.slideTxt{display: block; width: 100%; position: absolute; top: 50%; z-index: 2; margin-top: -50px; text-align: center; opacity: 0.3; transition: opacity 2s ease;}
 .swiper-slide-active .slideTxt{opacity: 1;}
-.slideTxt:before{content: ""; position: absolute; margin: auto; height: 2px; width: 0; bottom: 0; left: 0; right: 0; background-color: #fff; opacity: 0; transition: width 1s cubic-bezier(.19,1,.22,1),opacity .2s ease .7s;}
-.swiper-slide-active .slideTxt:before{width: 100%; opacity: 1; transition: width 1s cubic-bezier(.19,1,.22,1) .2s,opacity .2s ease;}
+.slideTxt span{display: inline-block; position: relative; font-size: 50px; white-space: nowrap; transform: rotateY(60deg); transition: transform 3s;}
+.swiper-slide-active .slideTxt span{transform: rotateY(0);}
+.slideTxt span:before{content: ""; position: absolute; margin: auto; height: 2px; width: 0; bottom: 0; left: 0; right: 0; background-color: #fff; opacity: 0; transition: width 1s cubic-bezier(.19,1,.22,1),opacity .2s ease .7s;}
+.swiper-slide-active .slideTxt span:before{width: 100%; opacity: 1; transition: width 1s cubic-bezier(.19,1,.22,1) .2s,opacity .2s ease;}
 
 /* slider arrow */
-.mainSwiper .swiper-button-next, .swiper-button-prev{top: 10%; margin: 0; width: 100px; height: 80%; background: none!important;}
+.mainSwiper .swiper-button-next, .swiper-button-prev{top: 10%; margin: 0; width: 100px; height: 80%;}
 /* slider pagination */
 .swiper-pagination{bottom: 35px !important;}
 .swiper-pagination-bullet {width: 60px; height: 30px; position: relative; border-radius: 0; background: none; font-size: 12px; color:#000; text-align: center; line-height: 20px; opacity: 1; transition: color 1s;}
@@ -125,9 +127,21 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 .swiper-pagination-bullet-active:before{height: 2px; bottom: 6px; background: #fff;}
 
 /* slide pf custum */
-.swiper-slide .pf_img.tb{width: 40vw; height: 25vw; box-shadow: none;}
+.swiper-slide .left .pf_imgBx, .swiper-slide .right .pf_imgBx{float: none;}
+.swiper-slide .pf_img{margin: auto; box-shadow: none;}
+.swiper-slide .pf_img.tb{width: 40vw; height: 25vw;}
+.swiper-slide .pf_img.mb{position: relative; top: -50px;}
 .mainSwiper .swiper-slide img{position: relative;}
-.swiper-slide-active .pf_img img{top: -160px;}
+.swiper-slide .pf_img.pc:before, .swiper-slide .pf_img.pc:after{box-shadow: none; border-radius: 0;}
+.swiper-slide .pf_img.pc:before{width: 100px; height: 30px; margin-left: -50px; bottom: -50px;}
+.swiper-slide .ibss .pf_img img{width: auto; height: 100%;}
+.swiper-slide .pf_img.pc:after{bottom: -60px;}
+.swiper-slide-active .mkca .pf_img img{top: -160px;}
+.swiper-slide-active .mims .pf_img img{left: -213px;}
+.swiper-slide-active .gw .pf_img img{top: -146px;}
+.swiper-slide-active .irgo .pf_img img{top: -448px;}
+.swiper-slide-active .ibss .pf_img img{left: -60px;}
+.swiper-slide-active .evolt .pf_img img{top: -596px;}
 
 
 
@@ -311,21 +325,24 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
 ===========*/
 .pfpage{padding-top: 80px;}
 .pf_intro{position: relative; width: 100%; height: 520px; padding: 320px 100px 0; background: url(../imgs/bg/sky02.jpg) repeat top center/cover; background-attachment: fixed;}
-.pfBx{width: 70%; height: 400px; margin: auto; padding: 50px; border: 1px solid #e3e3e3; border-top: 4px solid rgba(28, 37, 46, 0.8); background: #fff;}
+.pfBx{width: 70%; min-width: 700px; margin: auto; padding: 50px 50px 100px; border: 1px solid #e3e3e3; border-top: 4px solid rgba(28, 37, 46, 0.8); background: #fff;}
+.pf_intro .pfBX{height: 400px;}
 .pfBx *{color: #000;}
 .pfBx .floatL, .pfBx .floatR{width: 50%;}
-.pfBx h2{font-size: 40px; font-weight: 500;}
-.pfBx p{margin-bottom: 5px;}
+.pfBx h2{margin-bottom: 10px; font-size: 40px; font-weight: 500;}
+.pfBx p{margin-bottom: 15px;}
 .pfBx strong{font-size: 26px; font-weight: 500;}
 .pfBx ul li{margin-top: 10px;}
 .pfBx ul li strong{display: inline-block; width: 100px; font-size: 14px;}
 
-.pf_skill{padding: 300px 15%;}
-.pf_skill h2{margin-bottom: 10px; font-size: 40px; font-weight: 500; color: #000;}
+.pf_skill{padding: 300px 15% 120px;}
+.pf_skill h2{font-size: 40px; font-weight: 500; color: #000;}
+.skill{padding: 40px 0 60px;}
 .skill li{float: left; width: 20%;}
 .skl_c{position: relative; width: 1em; height: 1em; border-radius: 50%; background-color: #cccccc; font-size: 120px;}
 .skl_c *{font-size: inherit;}
-.skl_c:before{    position: absolute;
+.skl_c:before{   
+    position: absolute;
     top: 0.08em;
     left: 0.08em;
     display: block;
@@ -335,27 +352,30 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
     width: 0.84em;
     height: 0.84em;
 }
-
-.pst{position: absolute;
-    width: 100%;
+.skl_tit{
+    position: absolute;
     z-index: 1;
     left: 0;
     top: 0;
     width: 5em;
-    line-height: 5em;
+    height: 5em;
+    padding: 2em 0;
+    line-height: 1;
     font-size: 0.2em;
     color: #cccccc;
     display: block;
     text-align: center;
     white-space: nowrap;
 }
+.skl_tit.line2{padding: 1.5em 0;}
 .slice{
     position: absolute;
+    top: 0;
+    left: 0;
     width: 1em;
     height: 1em;
-    clip: rect(0em, 1em, 1em, 0.5em);
 }
-.bar{
+.bar, .fill{
     position: absolute;
     border: 0.08em solid #307bbb;
     width: 1em;
@@ -365,47 +385,25 @@ h1, h2, h3, h4, h5, h6{font-weight: 500;}
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    clip: rect(auto, auto, auto, auto);
+    clip: rect(0em, 1em, 1em, 0.5em);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     transition: all 2s;
-    }
-.p60 .bar{
-    clip: rect(0em, 0.5em, 1em, 0em);
-    -webkit-transform: rotate(216deg);
-    -moz-transform: rotate(216deg);
-    -ms-transform: rotate(216deg);
-    -o-transform: rotate(216deg);
-    transform: rotate(216deg);
-
 }
-.p100 .bar{
-    clip: rect(auto, auto, auto, auto);
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg); 
-}
-.p75 .bar{
-    clip: rect(0em, 0.5em, 1em, 0em);
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    transform: rotate(270deg);
-}
+.skill li:nth-child(2n) .bar, .skill li:nth-child(2n) .fill{border-color: #f05d5e;}
 
 
 .pf_career{position: relative; width: 100%; padding: 100px; background: url(../imgs/bg/sky01.jpg) repeat top center/cover; background-attachment: fixed;}
 
-
-
-
-
+.tabArea{border-bottom: 1px solid #abb8c3;}
+.tabArea li{float: left; padding: 5px 10px; position: relative; top: 1px; font-size: 16px; cursor: pointer;}
+.tabArea li.on{border-bottom: 2px solid #f05d5e; color: #f05d5e;}
+.list_bar{text-indent: 115px;}
+.list_bar li{position: relative; line-height: 1;}
+.list_bar li:before{content: ""; display: block; width: 5px; height: 1px; position: absolute; top: 5px; left: 100px; background: #000;}
 
 
 

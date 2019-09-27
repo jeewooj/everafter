@@ -55,5 +55,20 @@ jQuery(document).ready(function ($) {
         
     })
 
+    // tab 선택
+    $(function () {
+        $('.tabCont').hide();
+        $('.tabCont:first').show();
+
+        $('.tabArea li').click(function(){
+            $('.tabArea li').removeClass('on');
+            $(this).addClass('on');
+            $('.tabCont').hide();
+            var activeTab = $(this).attr('rel');
+            $('#' + activeTab).fadeIn()
+        })
+    });
+        
+
 
 });

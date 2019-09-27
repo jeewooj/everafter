@@ -25,16 +25,16 @@
             <div class="gnb">
                 <ul>
                     <li><a href="./profile.php" title="프로필 페이지로 이동">Profile</a></li>
-                    <li><a href="./pf_open.php" title="포트폴리오 페이지로 이동">Portfolio</a></li>
-                    <li><a href="" title="">Portfolio</a></li>
+                    <li><a href="./pf_open.php" title="포트폴리오 리스트로 이동">Portfolio</a></li>
+                    <li><a href="./pf_list.php" title="포트폴리오 요약으로 이동">Portfolio</a></li>
                 </ul>
             </div>
         </nav>
         <div class="head_full clearfix">
             <ul class="gnb_full">
-                <li><a href="" title="">Profile</a></li>
-                <li><a href="" title="">Portfolio</a></li>
-                <li><a href="" title="">Contact</a></li>
+                <li><a href="./profile.php" title="">Profile</a></li>
+                <li><a href="./pf_open.php" title="">Portfolio</a></li>
+                <li><a href="http://jeewooj.cafe24.com/profile/#contact" title="">Contact</a></li>
             </ul>
             <div class="gnb_imgBx">
                 <ul class="gnb_img">

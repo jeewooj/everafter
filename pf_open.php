@@ -14,7 +14,7 @@
             </ul>
         </div>
         <div class="tab_cont">
-            <article class="pfArea pjec mkca left" onclick="location.href='./pf/mkca.php'" id="mkca">
+            <article class="pfArea mkca left" onclick="location.href='./pf/mkca.php'" id="mkca">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/mkca/mkca_pc_1.png" alt="Darak360 main page"></div></div>
                     <div class="pf_img mb"><div class="imgBx"><img src="./imgs/pf/mkca/mkca_mb_1.png" alt="Darak360 mobile page"></div></div>
@@ -31,7 +31,7 @@
                     </ul>
                 </div>
             </article>
-            <article class="pfArea pjec mims right" onclick="location.href='./pf/mims.php'" id="mims">
+            <article class="pfArea mims right" onclick="location.href='./pf/mims.php'" id="mims">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/mims/mims_use_1.png" alt="Mims user page"></div></div>
                     <div class="pf_img pc"><div class="imgBx"><img src="./imgs/pf/mims/mims_solution_1.png" alt="Mims solution page"></div></div>
@@ -48,7 +48,7 @@
                     </ul>
                 </div>
             </article>
-            <article class="pfArea pjec gw left" onclick="location.href='./pf/gw.php'" id="gw">
+            <article class="pfArea gw left" onclick="location.href='./pf/gw.php'" id="gw">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/gw/gw_pc_7.png" alt="GW main page"></div></div>
                 </div>
@@ -63,7 +63,7 @@
                     </ul>
                 </div>
             </article>
-            <article class="pfArea pjec irgo right">
+            <article class="pfArea irgo right" id="irgo">
                 <div class="top clearfix" onclick="window.open('https://m.irgo.co.kr/')">
                     <div class="pf_tit">
                         <h3>IR GO</h3>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </article>
-            <article class="pfArea pjec ibss left" onclick="location.href='./pf/ibss.php'" id="ibss">
+            <article class="pfArea ibss left" onclick="location.href='./pf/ibss.php'" id="ibss">
                 <div class="top clearfix">
                     <div class="pf_tit">
                         <h3>GLOBAL FM</h3>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </article>
-            <article class="pfArea pjec evolt right"  onclick="window.open('https://www.m-evolt.com')">
+            <article class="pfArea evolt right" onclick="window.open('https://www.m-evolt.com')" id="evolt">
                 <div class="top clearfix">
                     <div class="pf_tit">
                         <h3>EVolt</h3>
@@ -135,7 +135,7 @@
                 </div>
             </article>
 
-            <article class="pfArea pjec tm left" onclick="window.open('https://www.travelmaker.co.kr')">
+            <article class="pfArea tm left" onclick="window.open('https://www.travelmaker.co.kr')" id="tm">
                 <div class="pf_imgBx">
                     <div class="pf_img tb"><div class="imgBx"><img src="./imgs/pf/tm/tm_pc_1.png" alt="Mims solution page"></div></div>
                 </div>
