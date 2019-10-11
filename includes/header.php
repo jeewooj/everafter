@@ -26,21 +26,23 @@
                 <ul>
                     <li><a href="./profile.php" title="프로필 페이지로 이동">Profile</a></li>
                     <li><a href="./pf_open.php" title="포트폴리오 리스트로 이동">Portfolio</a></li>
-                    <li><a href="./pf_list.php" title="포트폴리오 요약으로 이동">Portfolio</a></li>
+                    <li><a href="./pf_list.php" title="포트폴리오 요약으로 이동">P.F List</a></li>
                 </ul>
             </div>
         </nav>
         <div class="head_full clearfix">
             <ul class="gnb_full">
-                <li><a href="./profile.php" title="">Profile</a></li>
-                <li><a href="./pf_open.php" title="">Portfolio</a></li>
-                <li><a href="http://jeewooj.cafe24.com/profile/#contact" title="">Contact</a></li>
+                <li><a href="./profile.php" title="프로필 페이지로 이동">Profile</a></li>
+                <li><a href="./pf_open.php" title="포트폴리오 리스트로 이동">Portfolio</a></li>
+                <li><a href="./pf_list.php" title="포트폴리오 요약으로 이동">P.F List</a></li>
+                <li><a href="http://jeewooj.cafe24.com/profile/index.html#contact" title="메일 보내기 페이지로 이동">Contact</a></li>
             </ul>
             <div class="gnb_imgBx">
                 <ul class="gnb_img">
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
+                    <li class="on"><a href="./profile.php" title=""><img src="./imgs/bg/sky06.jpg" alt="프로필페이지로"></a></li>
+                    <li><a href="./pf_open.php" title=""><img src="./imgs/pf/mkca/mkca_pc_31.png" alt="포트폴리오페이지로"></a></li>
+                    <li><a href="./pf_list.php" title=""><img src="./imgs/pf/evolt/evolt_pc_3.png" alt="포트폴리오 리스트페이지로"></a></li>
+                    <li><a href="http://jeewooj.cafe24.com/profile/#contact" title=""><img src="./imgs/pf/iorora/iorora_mb_02.png" alt="메일보내기"></a></li>
                 </ul>
             </div>
         </div>

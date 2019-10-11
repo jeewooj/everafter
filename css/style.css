@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+/*===========================================================================
+	profile page
+===========*/
+.pfpage{padding-top: 80px;}
+.pf_intro{position: relative; width: 100%; height: 520px; padding: 320px 100px 0; background: url(../imgs/bg/sky02.jpg) repeat top center/cover; background-attachment: fixed;}
+.pfBx{width: 70%; min-width: 700px; margin: auto; padding: 50px 50px 100px; border: 1px solid #e3e3e3; border-top: 4px solid rgba(28, 37, 46, 0.8); background: #fff;}
+.pf_intro .pfBX{height: 400px;}
+.pfBx *{color: #000;}
+.pfBx .floatL, .pfBx .floatR{width: 50%;}
+.pfBx h2{margin-bottom: 10px; font-size: 40px; font-weight: 500;}
+.pfBx p{margin-bottom: 15px;}
+.pfBx strong{font-size: 26px; font-weight: 500;}
+.pfBx ul li{margin-top: 10px;}
+.pfBx ul li strong{display: inline-block; width: 100px; font-size: 14px;}
+
+/* skill circle */
+.pf_skill{padding: 300px 15% 120px;}
+.pf_skill h2{font-size: 40px; font-weight: 500; color: #000;}
+.skill{padding: 40px 0 60px;}
+.skill li{float: left; width: 20%;}
+.skl_c{position: relative; width: 1em; height: 1em; border-radius: 50%; background-color: #cccccc; font-size: 120px;}
+.skl_c *{font-size: inherit;}
+.skl_c:before{   
+    position: absolute;
+    top: 0.08em;
+    left: 0.08em;
+    display: block;
+    content: " ";
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 0.84em;
+    height: 0.84em;
+}
+.skl_tit{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 5em;
+    height: 5em;
+    padding: 2em 0;
+    line-height: 1;
+    font-size: 0.2em;
+    color: #cccccc;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+.skill li:nth-child(2n-1) .skl_tit{color: #307bbb;}
+.skill li:nth-child(2n) .skl_tit{color:#f05d5e;}
+.skl_tit.line2{padding: 1.5em 0;}
+.slice{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+}
+.bar, .fill{
+    position: absolute;
+    border: 0.08em solid #307bbb;
+    width: 1em;
+    height: 1em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    clip: rect(0em, 1em, 1em, 0.5em);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: all 2s;
+}
+.skill li:nth-child(2n) .bar, .skill li:nth-child(2n) .fill{border-color: #f05d5e;}
+
+/* career */
+.pf_career{position: relative; width: 100%; padding: 100px; background: url(../imgs/bg/sky01.jpg) repeat top center/cover; background-attachment: fixed;}
+.tabArea{border-bottom: 1px solid #abb8c3;}
+.tabArea li{float: left; padding: 5px 10px; position: relative; top: 1px; font-size: 16px; cursor: pointer;}
+.tabArea li.on{border-bottom: 2px solid #f05d5e; color: #f05d5e;}
+.list_bar{text-indent: 115px;}
+.list_bar li{position: relative; line-height: 1;}
+.list_bar li:before{content: ""; display: block; width: 5px; height: 1px; position: absolute; top: 5px; left: 100px; background: #000;}
+
+/* 
+.pf_history{padding: 300px 100px;}
+.pf_history h2{margin-bottom: 50px; font-size: 30px; text-align: center; color: #000;}
+.history{position: relative; text-align: center;}
+.history:before{content: ""; display: block; position: absolute; top: 0; left: 50%; z-index: -1; width: 2px; height: 100%; margin-left:-1px; background: #000;}
+.history li{position: relative; margin: 30px; font-size: 0;}
+.circle{display: inline-block; width: 50px; height: 50px; padding: 10px 0; border-radius: 50%; background: #000; font-size: 16px; line-height: 1;}
+.history li:nth-child(2n) .circle{background: pink;}
+.history li:last-child .circle{line-height: 30px;}
+.history li p{position: absolute; left: 0; top: 30%; width: 40%; font-size: 16px; color: #000; text-align: right;}
+.history li .right{left: auto; right:0; text-align: left;}
+.history li .left{left: 0; right: auto; text-align: right;} */
+
+/* 메일보내기 버튼 */
+.go_contact{padding: 100px;}
+.go_btn{}
+
+
+
+/*===========================================================================
+	portfolio open page
+===========*/
+.openpage{overflow: hidden; min-width: 1200px; padding: 80px 100px; position: relative;}
+.openpage:before{content:""; display: block; width: 100%; height: 500px; position: absolute; left: 0; top: 0; z-index: -1; padding: 80px 0; background: linear-gradient(black 50%, transparent);}
+.titBx{width: 1000px; margin: auto; padding: 100px 0;}
+.titBx h2{display: none; font-size: 50px; line-height: 1.3;}
+.titBx h2.on{display: block;}
+.tab_menu{width: 1000px; margin: auto; padding-bottom: 100px;}
+.tab_menu li{float: left; margin-right: 30px; position: relative; font-size: 20px; cursor: pointer;}
+.tab_menu li.on{color: red;}
+.tab_menu li.on:before{content:""; display: block; width: 100%; height: 2px; position: absolute; bottom: -5px; background: red;}
+.tab_cont{width: 1000px; margin: auto;}
+
+/* pfArea */
+.pfArea{padding: 100px 0; cursor: pointer;}
+.pf_imgBx{position: relative;}
+.left .pf_imgBx, .right .pf_tit{float: left;}
+.left .pf_tit, .right .pf_imgBx{float: right;}
+.pf_img{position: relative; top: 0; left: 0; background: #fff; box-shadow: 20px 20px 20px #e3e3e3; transition: all .5s;}
+.pf_img .imgBx{overflow: hidden; width: 100%; height: 100%; border: 1px solid #e3e3e3;}
+.openpage .pfArea:hover .pf_img{top: -10px; left: -10px;}
+
+/* portfolio title */
+.pf_tit{width: 40%;}
+.pf_tit h3{padding: 30px 0; font-size: 50px; color: #000;}
+.pf_info li{position: relative; color: #000;}
+.pf_info li:before{content:""; display: block; width: 5px; height: 1px; position: absolute; top: 10px; left: -10px; background: #000;}
+
+/* tablet/mobile custum */
+.pf_img.tb{width: 500px; height: 350px; border: 20px solid #fff; border-radius: 25px; border-width: 20px 50px 20px 30px;}
+.pf_img.tb:before, .pf_img.tb:after, .pf_img.mb:before, .pf_img.mb:after, .pf_img.pc:before, .pf_img.pc:after{content:""; display: block; position: absolute; top: 50%; background: #333;}
+.pf_img.tb:before{width: 4px; height: 30px; margin-top: -15px; left: -17px; border-radius: 2px;}
+.pf_img.tb:after{width: 20px; height: 20px; margin-top: -10px; right:-35px; border-radius: 50%;}
+.pf_img img{display: block; width: 100%; position: relative; top: 0; left: 0; transition: top 3s, left 3s; transition-delay: .5s;}
+
+.pf_img.mb{width: 200px; height: 400px; border: 20px solid #fff; border-radius: 20px; border-width: 30px 20px 30px;}
+.pf_img.mb:before{width: 30px; height: 4px; margin-left: -15px; left: 50%; top: -17px; border-radius: 5px;}
+.pf_img.mb:after{width: 30px; height: 15px; margin-left: -15px; left: 50%; top: auto; bottom: -22px; border-radius: 10px;}
+
+.pf_img.pc{width: 500px; height: 350px; border: 20px solid #fff; border-radius: 5px;}
+.pf_img.pc:before, .pf_img.pc:after{top: auto; left: 50%; background: #fff; box-shadow: 20px 20px 20px #e3e3e3;}
+.pf_img.pc:before{width: 140px; height: 40px; margin-left: -70px; bottom: -60px;}
+.pf_img.pc:after{width: 300px; height: 10px; margin-left: -150px; bottom: -70px;}
+
+.tb + .mb{position: absolute; left: 360px; top: 30px;}
+.tb + .pc{position: absolute; top: 50px; left: 100px;}
+.openpage .pfArea:hover .tb + .mb{left: 350px; top: 40px;}
+
+/* 반응형 responsive */
+.pfArea .responsive{transition: all 1s;}
+.pfArea .responsive img:nth-child(1){transition: top 3s; transition-delay: unset;}
+.pfArea .responsive img:nth-child(2){width: 340px; top: -135px; left: -218px; transition: left 2s; transition-delay: 1s; transform: rotate(90deg);}
+.openpage .pfArea:hover .responsive{width: 300px; right: 280px; transform: rotate(-90deg);}
+.openpage .pfArea:hover .responsive img:nth-child(1){position: absolute; z-index: -1; opacity: 0; top: -447px}
+.openpage .pfArea:hover .responsive img:nth-child(2){left: 133px;}
+
+/* 확장형 extension */
+.pfArea .extension{position: absolute;}
+.pfArea .bottom .extension{left: 100px;}
+.pfArea .extension img:nth-child(1){transition: opacity .01s; transition-delay: unset;}
+.openpage .pfArea:hover .extension{left: -150px; top: -10px; width: 700px; height: 390px;}
+.openpage .pfArea:hover .bottom .extension{left: 100px; top: 10px;}
+.openpage .pfArea:hover .extension img:nth-child(1){position: absolute; z-index: -1; opacity: 0;}
+
+/* portfolio custum */
+/* MKCA */
+.openpage .mkca:hover .pf_img img{top: -160px;}
+.openpage .mkca:hover .mb img{top: -420px;}
+/* MIMS */
+.mims .pc img{width: auto; height: 100%;}
+.openpage .mims:hover .tb{top: -50px; left: -50px;}
+.openpage .mims:hover .pc{top: 50px; left: 150px;}
+.openpage .mims:hover .tb img{top: -440px;}
+.openpage .mims:hover .pc img{left: -324px;}
+/* GW */
+.openpage .gw:hover .pf_img img{top: -120px;}
+/* IR GO */
+.irgo .top .pf_imgBx{top: -40px;}
+.irgo .top .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 250px;}
+.irgo .bottom .pf_imgBx{clear:both;}
+.irgo .bottom .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 550px;}
+.openpage .irgo:hover .top .pf_imgBx .pf_img:nth-child(1){right: 260px; top: 0;}
+.openpage .irgo:hover .top .pf_imgBx .pf_img:nth-child(2){left: 20px;}
+.openpage .irgo:hover .top .pf_imgBx .pf_img:nth-child(2) img{top: -395px;}
+.openpage .irgo:hover .bottom .pf_imgBx .pf_img{top: -10px;}
+.openpage .irgo:hover .bottom .pf_imgBx .pf_img:nth-child(1){right: 540px;}
+.openpage .irgo:hover .bottom .pf_imgBx .pf_img:nth-child(2){left: -20px; top: -20px}
+.openpage .irgo:hover .bottom .pf_imgBx .pf_img:nth-child(1) img{top: -200px;}
+.openpage .irgo:hover .bottom .pf_imgBx .pf_img:nth-child(2) img{top: -733px;}
+/* IBSS */
+.openpage .ibss .pf_imgBx{min-height: 400px;}
+/* EVolt */
+.evolt .responsive img:nth-child(2){top: -306px; left: -387px;}
+.evolt .top .pf_imgBx{top: -70px;}
+.evolt .top .pf_imgBx .pf_img:nth-child(1){position: absolute; left: auto; right: 250px;}
+.evolt .bottom .pf_imgBx{top: -10px;}
+.evolt .bottom .pf_imgBx .pf_img:nth-child(1){left: auto; right: 450px;}
+.evolt .bottom .pf_imgBx .pf_img:nth-child(2){left: auto; right: 80px; top: -20px;}
+.evolt .bottom .responsive img:nth-child(2){top: 5px; left: -76px;}
+.openpage .evolt:hover .top .pf_imgBx .pf_img:nth-child(1){right: 260px; top: 0;}
+.openpage .evolt:hover .top .pf_imgBx .pf_img:nth-child(2){left: 20px;}
+.openpage .evolt:hover .top .pf_imgBx .pf_img:nth-child(2) img{top: -19px;}
+.openpage .evolt:hover .responsive img:nth-child(1){top: -900px}
+.openpage .evolt:hover .responsive img:nth-child(2){left: 305px;}
+.openpage .evolt:hover .bottom .pf_imgBx{top: -40px;}
+.openpage .evolt:hover .bottom .pf_imgBx .pf_img:nth-child(1){right: 500px; top: -10px;}
+.openpage .evolt:hover .bottom .pf_imgBx .pf_img:nth-child(1) img{top: -95px;}
+.openpage .evolt:hover .bottom .responsive img:nth-child(1){top: -800px;}
+.openpage .evolt:hover .bottom .responsive img:nth-child(2){left: -6px;}
+
+/* TM */
+.tm .pf_imgBx:nth-child(1) .pf_img{left: 100px;}
+.tm .pf_imgBx:nth-child(2) .pf_img{left: 200px;}
+.tm .pf_imgBx:nth-child(3) .pf_img{top: -80px;}
+.openpage .tm:hover .pf_imgBx:nth-child(1) .pf_img{left: 120px; top: -30px;}
+.openpage .tm:hover .pf_imgBx:nth-child(2) .pf_img{left: 140px;}
+.openpage .tm:hover .pf_imgBx:nth-child(3) .pf_img{top: -50px;}
+.openpage .tm:hover .tb img{top: -346px;}
+.openpage .tm:hover .mb img{top: -598px;}
+.openpage .tm:hover .pc img{top: -66px;}
+
+
+
+/*===========================================================================
+	portfolio list page
+===========*/
+.listpage{padding: 80px 5% 0;}
+.listpage h2{margin: 50px auto; font-size: 50px; color: #000; text-align: center;}
+.pf_list{max-width: 1200px; margin: auto;}
+.pf_list > li{float: left; width: 30%; height: 350px; margin-left: 5%;}
+.pf_list > li:nth-child(3n-2){margin-left: 0;}
+.previewBx{overflow: hidden; position: relative; width: 100%; height: 200px;}
+.prev_imgBx{overflow: hidden; height: 100%; border: 10px solid #000; border-width: 10px 10px 0 10px; border-radius: 15px 15px 0 0;}
+.prev_imgBx.mb{position: absolute; top: 20%; right: 0; width: 100px; height: 80%;}
+.prev_imgBx.mb + .pc{width: 80%;}
+.prev_imgBx.mb.mb_one{top:0; right: 50%; width: 120px; height: 100%; margin-right: -60px;}
+.prev_imgBx img{width: 100%; min-height: 100%; border-radius: 5px 5px 0 0;}
+.infoBx{padding: 20px 0;}
+.infoBx p{color: #000;}
+.tag{display: inline-block; padding: 1px 6px; border-radius: 5px;}
+.bgBlue{background: #005377;}
+.bgRed{background: #f05d5e;}
+.bgSky{background: #2aa3d7;}
+.tagBx + p{padding: 1px 6px;}
+.pf_name{font-size: 18px; font-weight: 500;}
+
+
+
+@media all and (max-width: 1000px){
+	.pf_list > li{width: 45%; margin-left: 10%;}
+	.pf_list > li:nth-child(3n-2){margin-left: 10%;}
+	.pf_list > li:nth-child(2n-1){margin-left: 0;}
+}
+
+
+
+
+
+

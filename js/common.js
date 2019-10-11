@@ -69,6 +69,12 @@ jQuery(document).ready(function ($) {
         })
     });
         
+    // 헤더메뉴
+    $('.gnb_full li').on('mouseenter', function(){
+        var index = $(this).index();
+        $('.gnb_img li').removeClass('on');
+        $('.gnb_img li:eq('+index+')').addClass('on');
+    })
 
 
 });
