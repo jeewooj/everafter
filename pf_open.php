@@ -134,6 +134,21 @@
                     </div>
                 </div>
             </article>
+            <article class="pfArea dshw left" onclick="window.open('http://www.dshw.co.kr/')" id="dshw">
+                <div class="pf_imgBx">
+                    <div class="pf_img mb responsive"><div class="imgBx"><img src="./imgs/pf/dshw/dshw_mb_01.png" alt="대성학원 main page"><img src="./imgs/pf/dshw/dshw_pc_01.png" alt="대성학원 main page"></div></div>
+                </div>
+                <div class="pf_tit">
+                    <h3>대성학원</h3>
+                    <ul class="pf_info">
+                        <li>학원 안내 홈페이지</li>
+                        <li>원페이지 형식의 메인 페이지</li>
+                        <li>반응형 홈페이지</li>
+                        <li>퍼블리싱 기여도 50%</li>
+                        <li>작업기간 1주</li>
+                    </ul>
+                </div>
+            </article>
 
             <article class="pfArea tm left" onclick="window.open('https://www.travelmaker.co.kr')" id="tm">
                 <div class="pf_imgBx">

@@ -101,7 +101,7 @@
 .history li .left{left: 0; right: auto; text-align: right;} */
 
 /* 메일보내기 버튼 */
-.go_contact{padding: 100px;}
+.go_contact{display: none; padding: 100px;}
 .go_btn{}
 
 
@@ -216,6 +216,13 @@
 .openpage .evolt:hover .bottom .pf_imgBx .pf_img:nth-child(1) img{top: -95px;}
 .openpage .evolt:hover .bottom .responsive img:nth-child(1){top: -800px;}
 .openpage .evolt:hover .bottom .responsive img:nth-child(2){left: -6px;}
+/* DSHW */
+.dshw .pf_img{left: 180px;}
+.dshw .responsive img:nth-child(2){top:-415px;}
+.dshw .responsive img:nth-child(2){left: -496px;}
+.openpage .dshw:hover .responsive{right: auto; left: 100px; top: -40px;}
+.openpage .dshw:hover .responsive img:nth-child(1){top: -956px}
+.openpage .dshw:hover .responsive img:nth-child(2){left: 415px;}
 
 /* TM */
 .tm .pf_imgBx:nth-child(1) .pf_img{left: 100px;}

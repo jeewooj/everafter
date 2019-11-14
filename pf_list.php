@@ -10,7 +10,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -25,7 +25,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -40,7 +40,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 95%</p>
                     </div>
@@ -56,8 +56,8 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
-                            <span class="tag bgRed">리뉴얼</span>
+                            <span class="tag bgRed">구현</span>
+                            <span class="tag bgBlue">리뉴얼</span>
                         </div>
                         <p class="floatL">참여도 구현 100% / 리뉴얼 50%</p>
                     </div>
@@ -72,7 +72,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgRed">리뉴얼</span>
+                            <span class="tag bgBlue">리뉴얼</span>
                         </div>
                         <p class="floatL">참여도 50%</p>
                     </div>
@@ -88,7 +88,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 100%</p>
                     </div>
@@ -98,12 +98,12 @@
             </li>
             <li>
                 <div class="previewBx">
-                    <div class="prev_imgBx pc"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx pc"><img src="./imgs/pf/msj/msj_pc_01.png" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 40%</p>
                     </div>
@@ -113,12 +113,12 @@
             </li>
             <li>
                 <div class="previewBx">
-                    <div class="prev_imgBx mb mb_one"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx mb mb_one"><img src="./imgs/pf/iorora/iorora_mb_02.png" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 20%</p>
                     </div>
@@ -128,13 +128,13 @@
             </li>
             <li>
                 <div class="previewBx">
-                    <div class="prev_imgBx mb"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
-                    <div class="prev_imgBx pc"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx mb"><img src="./imgs/pf/tm/tm_mb_1.png" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx pc"><img src="./imgs/pf/tm/tm_pc_5.png" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 85%</p>
                     </div>
@@ -150,7 +150,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 40%</p>
                     </div>
@@ -165,7 +165,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgSky">리뉴얼</span>
+                            <span class="tag bgBlue">리뉴얼</span>
                         </div>
                         <p class="floatL">참여도 50%</p>
                     </div>
@@ -181,7 +181,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -197,7 +197,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -207,13 +207,13 @@
             </li>
             <li>
                 <div class="previewBx">
-                    <div class="prev_imgBx mb"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
-                    <div class="prev_imgBx pc"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx mb"><img src="./imgs/pf/dshw/dshw_mb_01.png" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx pc"><img src="./imgs/pf/dshw/dshw_pc_01.png" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 50%</p>
                     </div>
@@ -223,13 +223,13 @@
             </li>
             <li>
                 <div class="previewBx">
-                    <div class="prev_imgBx mb"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
-                    <div class="prev_imgBx pc"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx mb"><img src="./imgs/pf/kiha/kiha_mb_01.png" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx pc"><img src="./imgs/pf/kiha/kiha_pc_01.png" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 90%</p>
                     </div>
@@ -239,13 +239,13 @@
             </li>
             <li>
                 <div class="previewBx">
-                    <div class="prev_imgBx mb"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
-                    <div class="prev_imgBx pc"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx mb"><img src="./imgs/pf/sup/sup_mb_01.png" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx pc"><img src="./imgs/pf/sup/sup_pc_01.png" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 70%</p>
                     </div>
@@ -260,7 +260,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 100%</p>
                     </div>
@@ -275,7 +275,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 100%</p>
                     </div>
@@ -291,7 +291,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -302,12 +302,12 @@
             <li>
                 <div class="previewBx">
                     <div class="prev_imgBx mb"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
-                    <div class="prev_imgBx pc"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx pc"><img src="./imgs/pf/infublic/infublic_pc_01.png" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -323,7 +323,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 30%</p>
                     </div>
@@ -339,7 +339,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 30%</p>
                     </div>
@@ -355,7 +355,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -371,7 +371,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 40%</p>
                     </div>
@@ -387,7 +387,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 40%</p>
                     </div>
@@ -403,7 +403,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 100%</p>
                     </div>
@@ -419,7 +419,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -435,7 +435,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -451,7 +451,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 60%</p>
                     </div>
@@ -467,7 +467,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 60%</p>
                     </div>
@@ -483,7 +483,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 60%</p>
                     </div>
@@ -499,7 +499,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 30%</p>
                     </div>
@@ -547,7 +547,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -563,7 +563,7 @@
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
+                            <span class="tag bgRed">구현</span>
                         </div>
                         <p class="floatL">참여도 80%</p>
                     </div>
@@ -588,25 +588,24 @@
 
 
 
-            <li>
+            <li style="display: none;">
                 <div class="previewBx">
-                    <div class="prev_imgBx pc"></div>
+                    <div class="prev_imgBx mb"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
+                    <div class="prev_imgBx pc"><img src="./imgs/bg/no_img.jpg" alt="포트폴리오 이미지"></div>
                 </div>
                 <div class="infoBx">
                     <div class="pf_tag clearfix">
                         <div class="tagBx floatL">
-                            <span class="tag bgBlue">구현</span>
-                            <span class="tag bgRed">유지보수</span>
-                            <span class="tag bgSky">리뉴얼</span>
+                            <span class="tag bgBlue">리뉴얼</span>
+                            <span class="tag bgRed">구현</span>
+                            <span class="tag bgSky">유지보수</span>
                         </div>
                         <p class="floatL">참여도 100%</p>
                     </div>
-                    <p class="pf_name">ABC 회사</p>
-                    <p class="pf_turm">작업 소요기간 약 5주</p>
+                    <p class="pf_name">프로젝트명 / 종류</p>
+                    <p class="pf_turm">작업 소요기간 약 0주</p>
                 </div>
             </li>
-            <li></li>
-            <li></li>
         </ul>
     </section>
 </div>
